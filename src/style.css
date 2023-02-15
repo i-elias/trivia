@@ -115,9 +115,10 @@ input[type='radio'] {
 }
 
 .body__bg {
-  min-height: 100vh;
   background-image: url('../public/background_img.svg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
 }
 
 .quiz__body {
